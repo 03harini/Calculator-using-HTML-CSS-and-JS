@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/564x/02/9a/82/029a82a8f35c78ae1263f36dd57763b7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container {
+    background-color:skyblue;
+    padding:20px;
+    width:255px;
+    align-items: right;
+}
+.calculator {
+    display: grid;
+    width: 290px;
+    border-radius: 50px;
+}
+
+.display input {
+    width: 81%;
+    margin-right: 5px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    text-align: right;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+    background-color:white;
+}
+input[type="button"] { 
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-display: white;
+    border:none;
+    border-radius: 5px;
+    background-color:white;
+    transition: background-color 0.2s ease;
+}
+input[type="button"].operator {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    font-display: white;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    background-color:orange;
+    transition: background-color 0.2s ease;
+}
+input[type="button"].button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    font-display: white;
+    cursor: pointer;
+    border:none;
+    background-color:orange;
+    transition: background-color 0.2s ease;
+}
+input[type="button"]:hover {
+    background-color:wheat;
+}
+input[type="button"].equal{
+    width:115px;
+    background-color: orange;
+}
+.equal {
+    width:145px;
+    background-color: #4CAF50;
+    color:black;
+}
+
+
